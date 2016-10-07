@@ -1,0 +1,103 @@
+[data-module="ap-auto-references-popup"] {
+  
+}
+
+*[data-reference-id] {
+    vertical-align: super;
+    font-size: smaller;
+
+    border: solid 20px transparent;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+/*
+*[data-reference-id]:after {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+*/
+#presentation .auto-references-popup-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -webkit-box-shadow: 0 0 50px 0 rgba(50, 50, 50, 0.5), inset 0 0 200px 0 rgba(50, 50, 50, 0.5);
+    box-shadow: 0 0 50px 0 rgba(50, 50, 50, 0.5), inset 0 0 200px 0 rgba(50, 50, 50, 0.5);
+    display: -webkit-box;
+    display: inline-block;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    z-index: 2;
+}
+
+#presentation .auto-references-popup {
+    display: block;
+    position: relative;
+    margin: 20% 20%;
+    max-width: 50%;
+    height: auto;
+
+    min-height: 200px;
+    max-height: 460px;
+    max-width: 900px;
+    padding: 20px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 650px;
+
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+#presentation .auto-references-popup h1 {
+    margin: 10px;
+    font-size: 15pt;
+}
+
+#presentation .auto-references-popup .x {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+
+    display: inline-block;
+    line-height: 0.5;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    background-color: white;
+    color: black;
+}
+
+#presentation ul li.mediaEntry {
+    font-size: 12pt;
+}
+
+#presentation ul li.mediaEntry .tags {
+    display: none;
+}
+
+#presentation .library #MediaLibrary input {
+    width: 265px;
+}
+
+html.ag-microsite #presentation .auto-references-popup{
+    min-width: 95%;
+    margin: 5% 2%;
+}
+
+
+html.ag-microsite #presentation ul li.mediaEntry .emailAttachmentToggler {
+    display: none;
+}

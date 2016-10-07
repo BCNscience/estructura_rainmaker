@@ -1,0 +1,152 @@
+article.slide {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    color: #6C6C6C;
+    background-color: white;
+    /*    padding: 64px !important;*/
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+article.slide.black {
+    color: white;
+    background-color: black;
+}
+
+article.slide .inset {
+    position: absolute;
+    top: 64px;
+    left: 64px;
+    right: 64px;
+    bottom: 64px;
+}
+
+article.slide h1 {
+    font-family: Helvetica-Bold;
+    font-size: 52px;
+    color: #1691C3;
+    line-height: 1em;
+    margin-bottom: 17px;
+    text-align: left;
+}
+
+article.slide h2 {
+    font-family: Helvetica-Bold;
+    font-size: 44px;
+    color: #6EC023;
+    margin-bottom: 26px;
+    line-height: 1em;
+    text-align: left;
+}
+
+article.slide h3 {
+    font-family: HelveticaLTStd-Bold;
+    margin-bottom: 19px;
+    font-size: 32px;
+    line-height: 1em;
+    text-align: left;
+}
+
+article.slide p {
+    font-size: 30px;
+    line-height: 17px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+article.slide ul {
+    list-style-type: none;
+    margin-left: 22px;
+    text-align: left;
+}
+
+article.slide li {
+    position: relative;
+    font-size: 28px;
+    margin-bottom: 2px;
+    text-align: left;
+    line-height: 1.25em;
+}
+
+article.slide li:before {
+    content: "•";
+    font-size: 28px;
+    position: absolute;
+    top: 0px;
+    left: -12px;
+}
+
+article.slide sup {
+    top: 0;
+}
+
+/* Portrait and Landscape */
+@media only screen
+and (max-width: 736px)
+and (max-device-width: 736px) {
+
+    .accelerator .slides > article.slide.present {
+        overflow-y: scroll;
+        margin: 5px ;
+        padding: 45px !important;
+    }
+
+    .bayerLogo,
+    .bayerLogoWhite{
+        top: 20px;
+    }
+
+    .brandLogo{
+        bottom: inherit;
+        right: 20px;
+        margin-bottom: 50px;
+    }
+
+    article.slide h1{
+        margin-top: 50px;
+    }
+
+
+}
+
+
+/******************
+        POPUP
+******************/
+.none{
+    display: none;
+}
+.btn-popup{
+    width: 140px;
+    height: 140px;    
+    position: absolute;
+    top: 60px;
+    right: 170px;
+}
+.popup{
+    width: 113px;
+    height: 110px;
+    margin: 12px 30px;
+}
+
+.close-popup-btn {
+    width: 100px;
+    height: 100px;
+    right: 40px;
+    position: absolute;
+}
+
+[data-module="ap-add-slide-button"] .addButton {
+    width: 64px;
+    height: 50px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: 50%, 100%;
+    background-image: none; 
+}
+
+.accelerator .menu li{
+    padding: 16px 0px;
+}
+

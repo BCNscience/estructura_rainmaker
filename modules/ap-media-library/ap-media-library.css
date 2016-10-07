@@ -1,0 +1,64 @@
+
+[data-module="ap-media-library"].state-hide{
+    display: none;
+
+}
+
+[data-module="ap-media-library"].state-visible{
+    display: block;
+}
+
+
+[data-module="ap-media-library"] {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 15pt;
+    -webkit-box-sizing: border-box; -webkit-box-shadow: 0 0 5px 0 rgba(50, 50, 50, 0.5), inset 0 0 15px 0 rgba(50, 50, 50, 0.2);
+}
+
+[data-module="ap-media-library"] h1 {
+    display: inline-block;
+    margin: 20px;
+}
+
+[data-module="ap-media-library"] input {
+    display: inline-block;
+    font-size: 15pt;
+    width: 340px;
+}
+
+[data-module="ap-media-library"] .scroll {
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    left: 20px;
+    right: 20px;
+    overflow: hidden;
+}
+
+[data-module="ap-media-library"] ul {
+    list-style: none;
+    padding-right: 20px;
+}
+
+[data-module="ap-media-library"] ul li.mediaEntry:after {
+    display: none;
+    /*
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid gray;
+    content: "";
+    */
+}
+
+[data-module="ap-media-library"].state-followupmail{
+    display: block;
+}
+
+[data-module="ap-media-library"].state-attachment{
+    display: block;
+}

@@ -1,0 +1,64 @@
+{
+    "content://Mehlhorn, H. Mode of action of imidacloprid and comparison with other insecticides (i.e. fipronil & selamectin) during in vivo and in vitro experiments. Suppl. Compend. Educ. Pract. Vet. 2000; 22(4A): 4-8": {
+        "tags": "publication"
+    },
+    "content://Bayer Study No. 23133": {
+        "tags": "publication",
+        "allowDistribution": true
+    },
+    "content://Wall R, Shearer D. The diagnosis and control of ectoparasitic infestation. In: Wall R, Shearer D. Veterinary Ectoparasites: Biology, Pathology and Control. 2nd ed. London, UK: Wiley-Blackwell; 2001:179-242.": {
+        "referenceId": 1,
+        "tags": "publication reference 1"
+    },
+    "content://European Scientific Counsel Companion Animal Parasites; Worm Control in Dogs and Cats. ESCCAP Guidelines 01 Second Edition, September 2011.": {
+        "referenceId": 2,
+        "allowDistribution": true,
+        "tags": "publication reference 2"
+    },
+    "shared/references/specific-product-characteristics.pdf": {
+        "title": "<i>Specific</i> Product Characteristics"
+    },
+    "shared/references/reference_01.pdf": {
+        "title": "Doe J, Lorem Ipsum 1. 2005",
+        "referenceId": 3,
+        "allowDistribution": true,
+        "tags": "document pdf publication reference 3"
+    },
+    "shared/references/reference_02.pdf": {
+        "title": "Doe J, Lorem Ipsum 2. 2007",
+        "referenceId": 4,
+        "allowDistribution": true,
+        "tags": "document pdf publication reference 4"
+    },
+    "shared/references/reference_03.pdf": {
+        "title": "Doe J, Lorem Ipsum 3. 2009",
+        "referenceId": 5,
+        "tags": "document pdf publication reference 5"
+    },
+    "http://www.bayer.com": {
+        "title": "Bayer",
+        "referenceId": 6,
+        "tags": "website link url www reference 7"
+    },
+    "http://healthcare.bayer.com": {
+        "title": "Bayer HealthCare",
+        "tags": "website link url www"
+    },
+    "http://www.animalhealth.bayer.com/": {
+        "title": "Bayer Animal Health",
+        "tags": "website link url www"
+    },
+    "shared/video/about_us.m4v": {
+        "title": "About Us",
+        "tags": "video m4v about us"
+    },
+    "shared/video/bayer_150.mp4": {
+        "title": "Bayer 150",
+        "tags": "video mp4 bayer 150"
+    },
+    "shared/video/image_movie.mov": {
+        "title": "Image Movie",
+        "referenceId": 7,
+        "tags": "video mov image movie reference 8"
+    }
+}

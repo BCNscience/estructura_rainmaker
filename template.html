@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Rainmaker BHC Template</title>
+
+    <meta name="description" content="Presentation">
+    <meta name="author" content="">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <!-- Specify a default short title when adding to home screen (works in iOS >= 6) -->
+    <meta name="apple-mobile-web-app-title" content="Template">
+    <!-- Don't automatically detect phone numbers and email addresses -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+
+
+    <link rel="stylesheet" href="build/presentation/styles.css">
+
+    <!-- Printing and PDF exports
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'accelerator/css/print/pdf.css' : 'accelerator/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script> -->
+
+  </head>
+
+  <body>
+
+    <div id="presentation" class="accelerator">
+      <nav data-module="ag-auto-menu"></nav>
+      <section id="slideshows" class="slideshows slides"></section>
+
+      <div data-module="ag-slide-analytics"></div>
+      <div data-module="ag-viewer"></div>
+      <div data-module="ap-media-repository"></div>
+      <div data-module="ap-auto-references-popup"></div>
+      <div data-module="ap-custom-collections-storage"></div>
+      <div data-module="ap-content-groups"></div>
+      <div data-module="ap-notepad"></div>
+      <div data-module="ap-slide-indicator"></div>
+      <div data-module="ap-add-slide-button"></div>
+      <div class="pause-overlay"></div>
+      <footer data-module="ap-toolbar" minimized></footer>
+
+    </div>
+
+    <!-- Agnitio Content API -->
+    <!-- http://wiki.agnitio.com/index.php?title=Agnitio_Content_API_(iPad) -->
+    <!-- <script src="../viewer/js/agnitio.js"></script> -->
+    <!-- Reference local agnitio.js for testing purposes -->
+
+    <!-- BAYER Includes -->
+    <script src="accelerator/lib/veeva-library-4.0.js"></script>
+    <script src="accelerator/lib/agnitio.js"></script>
+    <script src="accelerator/lib/bayer.js"></script>
+
+
+    <script src="build/presentation/scripts.js"></script>
+    <script src="build/translations/templates.js"></script>
+
+    <!--script src="http://weinre.antwerpes.de/target/target-script-min.js#HC-Template"></script-->
+  </body>
+</html>

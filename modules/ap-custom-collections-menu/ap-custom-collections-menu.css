@@ -1,0 +1,153 @@
+[data-module="ap-custom-collections-menu"] {
+  display: none;
+}
+
+[data-module="ap-custom-collections-menu"].state-visible {
+    display: block;
+
+}
+
+.aInput > input{
+    font-family: 'Helvetica'
+}
+
+.aButtons > button {
+    font-family: 'Helvetica'
+}
+
+.custom-collections-menu{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.custom-collections-menu .row.template {
+    display:none;
+}
+
+.custom-collections-menu .row {
+    height: 70px;
+    display: block;
+    width: 100%;
+    text-align: center;
+
+}
+
+.custom-collections-menu .row div {
+    width: 50px;
+    height: 50px;
+    margin-left: 2px;
+    margin-right: 2px;
+    line-height: 50px;
+}
+
+.custom-collections-menu .button {
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid #BABEC4;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: top;
+    margin: 10px;
+    position: relative;
+}
+
+.custom-collections-menu .row .trash {
+    background-image: url(assets/trash.png), -webkit-gradient( linear, left top, left bottom, color-stop(0.00, #ffffff), color-stop(1.00, #e0e3e4) );
+    background-image: url(assets/trash.png), linear-gradient( to left bottom, #ffffff, #e0e3e4);
+}
+
+.custom-collections-menu .row .rename {
+    background-image: url(assets/rename.png), -webkit-gradient( linear, left top, left bottom, color-stop(0.00, #ffffff), color-stop(1.00, #e0e3e4) );
+    background-image: url(assets/rename.png), linear-gradient( to left bottom, #ffffff, #e0e3e4);
+}
+
+.custom-collections-menu .row .presentation,
+.custom-collections-menu .row .newPresentation{
+    font-size: 20px;
+    color: #666;
+    background-image: linear-gradient(to left bottom, #FFF, #E0E3E4);
+    width: 65%;
+}
+
+
+
+
+.custom-collections-menu .row .presentation .name,
+.custom-collections-menu .export .name {
+    height: 30px;
+    transition: opacity 0.5s ease 0s;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    border-left: 5px solid rgb(22, 145, 195);
+    line-height: 30px;
+    margin: 10px 0px 0px 20px;
+}
+
+.custom-collections-menu .row .button.newPresentation{
+    margin-left: -106px;
+}
+
+.custom-collections-menu .export {
+    width: auto;
+    float:right;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-right: 20px;
+    visibility:hidden;
+}
+.custom-collections-menu .row .edit {
+    background-image: url(assets/edit.png), -webkit-gradient( linear, left top, left bottom, color-stop(0.00, #ffffff), color-stop(1.00, #e0e3e4) );
+    background-image: url(assets/edit.png), linear-gradient(to left bottom,  #ffffff 0%,  #e0e3e4 100%);
+}
+
+.custom-collections-menu .row .favorite.selected {
+    background-image: url(assets/favorite_active.png), -webkit-gradient( linear, left top, left bottom, color-stop(0.00, #ffffff), color-stop(1.00, #e0e3e4) );
+    background-image: url(assets/favorite_active.png), linear-gradient( to left bottom, #ffffff 0% , #e0e3e4 100%);
+}
+.custom-collections-menu .row .favorite {
+    background-image: url(assets/favorite_inactive.png), -webkit-gradient( linear, left top, left bottom, color-stop(0.00, #ffffff), color-stop(1.00, #e0e3e4) );
+    background-image: url(assets/favorite_inactive.png), linear-gradient( to left bottom, #ffffff 0% ,  #e0e3e4 100%);
+}
+
+.custom-collections-menu .presentationsContainer {
+    min-height: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+}
+
+.custom-collections-menu #maxFavoritesPopUp {
+    display: none;
+    position: absolute;
+    height: 60px;
+    width: 90%;
+    bottom: 20px;
+    left: 50px;
+    right: 50px;
+    text-align: center;
+    font-size: 22px;
+    color: #666666;
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0.00, #ffffff), color-stop(1.00, #e0e3e4) );
+    background-image: linear-gradient( to left bottom, #ffffff 0% ,  #e0e3e4 100%);
+    border-radius: 10px;
+    box-shadow: 0px 3px 7px #333;
+    -webkit-box-shadow: 0px 3px 7px #333;
+}
+
+
+.custom-collections-menu #maxFavoritesPopUp span {
+    position: relative;
+    top: 20px;
+    height: 50px;
+
+}
+

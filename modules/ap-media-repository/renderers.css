@@ -1,0 +1,170 @@
+
+ul li.mediaEntry {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 1px solid gray;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+ul li.mediaEntry:last-child {
+    border-bottom: none;
+}
+
+ul li.mediaEntry.hidden {
+	display: none;
+}
+
+ul li.mediaEntry .icon {
+	position: absolute;
+	top: 0;
+	left: 40px;
+	bottom: 0;
+	width: 40px;
+}
+
+ul li.mediaEntry .tags {
+	display: block;
+	position: absolute;
+	width: 100%;
+	font-size: 8pt;
+	text-align: right;
+	line-height: 0;
+}
+
+ul li.mediaEntry .title {
+	display: inline-block;
+	position: relative;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding-left: 140px;
+	line-height: 23pt;
+	box-sizing: border-box;
+}
+
+ul li.mediaEntry .referenceId {
+	position: absolute;
+	left: 80px;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	width: 40px;
+
+	padding-top: 6px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Content renderer entries */
+
+ul li.mediaEntry.content .icon {
+	background: url("assets/document.png") center no-repeat;
+}
+
+/* PDF renderer entries */
+
+ul li.mediaEntry.pdf .icon {
+	background: url("assets/pdf.png") center no-repeat;
+}
+
+/* URL renderer entries */
+
+ul li.mediaEntry.url a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+ul li.mediaEntry.url .icon {
+	background: url("assets/link.png") center no-repeat;
+}
+
+ul li.mediaEntry span.url {
+	padding-left: 140px;
+	line-height: 23pt;
+}
+
+/* Video renderer entries */
+
+ul li.mediaEntry.video .icon {
+	background: url("assets/video.png") center no-repeat;
+	background-size: 20px 20px;
+}
+
+ul li.mediaEntry.video video {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 140px;
+	margin-right: 20px;
+	width: 180px;
+	height: 100px;
+}
+
+/* Video renderer popup */
+
+#presentation .videoPopup {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-box-shadow: 0 0 50px 0 rgba(50, 50, 50, 0.5), inset 0 0 200px 0 rgba(50, 50, 50, 0.5);
+	box-shadow:  0 0 50px 0 rgba(50, 50, 50, 0.5), inset 0 0 200px 0 rgba(50, 50, 50, 0.5);
+	display: -webkit-box;
+	display: inline-block;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	z-index: 9999999;
+}
+
+#presentation .videoPopup video {
+	display: block;
+	margin: 20% 25%;
+	width: 50%;
+	height: 50%;
+}
+
+#presentation .videoPopup .close {
+    background: url("assets/close.png");
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 24px;
+    left: 75%;
+    top: 29%;
+}
+
+/* Attachments */
+
+ul li.mediaEntry .emailAttachmentToggler {
+	position: absolute;
+	width: 40px;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+ul li[data-is-attached="false"] .emailAttachmentToggler {
+    background: url("assets/add.png") center no-repeat;
+}
+
+ul li[data-is-attached="true"] .emailAttachmentToggler {
+    background: url("assets/remove.png") center no-repeat;
+}
+
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+	#presentation .videoPopup .close{
+		top: 38%;
+		left: 76%;
+	}
+}

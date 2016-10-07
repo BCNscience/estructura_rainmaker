@@ -1,0 +1,9 @@
+{
+  "name": "Agnitio Auto Menu",
+  "description": "Menu that automatically builds.",
+  "files": {
+    "styles": ["modules/ag-auto-menu/ag-auto-menu.css"],
+    "scripts": ["modules/ag-auto-menu/ag-auto-menu.js"]
+  },
+  "version": "0.9.0"
+}

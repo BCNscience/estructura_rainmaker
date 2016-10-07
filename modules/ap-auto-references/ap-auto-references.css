@@ -1,0 +1,34 @@
+[data-module="ap-auto-references"] {
+  
+}
+
+.auto-side-clip ul {
+    list-style: none;
+    padding-right: 20px;
+}
+
+/* List entries */
+
+.auto-side-clip ul li.mediaEntry {
+    font-size: 12pt;
+    margin-top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    border-bottom: 1px solid gray;
+    text-overflow: ellipsis;
+}
+
+.auto-side-clip ul li.mediaEntry .tags {
+    display: none;
+}
+
+/* URL renderer entries */
+
+.auto-side-clip ul li.mediaEntry.video video {
+    display: none;
+}
+
+[data-reference-id]{
+    vertical-align: super;
+    font-size: smaller;
+}

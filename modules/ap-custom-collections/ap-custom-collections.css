@@ -1,0 +1,291 @@
+
+[data-module="ap-custom-collections"] {
+    display: none;
+}
+[data-module="ap-custom-collections"].state-visible {
+    display: block;
+}
+
+.custom-collections {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.custom-collections .overview {
+    position: absolute;
+    top: 0;
+    bottom: 52%;
+    left: 0;
+    right: 0;
+}
+
+.custom-collections .overview .o_slide.alreadyUsed {
+    opacity: .5;
+}
+
+body > .o_slide {
+    position: absolute;
+    z-index: 1;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+    pointer-events: none;
+    opacity: .5;
+}
+
+body > .o_slide.grouped:nth-last-child(1) {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+body > .o_slide.grouped:nth-last-child(2) {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+body > .o_slide.grouped:nth-last-child(3) {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+body > .o_slide.grouped:nth-last-child(4) {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+body > .o_slide.grouped:nth-last-child(5) {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.custom-collections .editZone {
+    position: absolute;
+    bottom: 0;
+    top: 52%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-collections .o_collection .placeholder {
+    -webkit-transition: height .5s, width .5s;
+    transition: height .5s, width .5s;
+    -moz-transition: height .5s, width .5s;
+}
+
+.custom-collections .o_collection > .placeholder {
+    width: 20px;
+    height: 104px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.custom-collections .o_collection > .o_slideshow > .placeholder {
+    width: 138px;
+    height: 10px;
+    float: left;
+}
+
+.custom-collections .o_collection .placeholder:last-child,
+.custom-collections .o_collection > .placeholder {
+    border: 1px dashed lightgray;
+    background-image: url("assets/plus.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 28px;
+}
+
+.custom-collections .o_collection > .o_slideshow > .placeholder:last-child {
+    height: 102px;
+}
+
+.custom-collections .o_collection > .placeholder:last-child {
+    width: 136px;
+}
+
+.custom-collections .o_collection > .o_slideshow > .placeholder.target:last-child {
+    height: 102px;
+}
+
+.custom-collections .o_collection > .placeholder.target:last-child {
+    width: 136px;
+}
+
+/* prevent dropping before home or after summary*/
+
+.custom-collections .editZone .o_collection > .o_slideshow:first-child .o_slide, .custom-collections .editZone .o_collection > .o_slideshow:last-child .o_slide {
+    margin-top: 10px;
+}
+
+.custom-collections .editZone .o_collection > .o_slideshow:first-child .o_slide, .custom-collections .editZone .o_collection > .o_slideshow:last-child .o_slide {
+    margin-top: 10px;
+}
+
+.custom-collections .editZone .o_collection > .o_slideshow:first-child, .custom-collections .editZone .o_collection > .o_slideshow:last-child {
+    pointer-events: none;
+}
+
+@-webkit-keyframes targetAnimation {
+    from {
+        background-color: transparent;
+    }
+    to {
+        background-color: lightgray;
+    }
+}
+
+.custom-collections .o_collection .placeholder.target, .custom-collections .o_collection .placeholder.expanded {
+    background-color: lightgray;
+    border: 1px dashed lightgray;
+    background-image: url("assets/plus.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 28px;
+    -webkit-animation: targetAnimation .5s alternate infinite;
+    -moz-animation: targetAnimation .5s alternate infinite;
+    animation: targetAnimation .5s alternate infinite;
+    -webkit-transition-delay: .2s;
+    -moz-transition-delay: .2s;
+    transition-delay: .2s;
+}
+
+.custom-collections .o_collection > .placeholder.target {
+    width: 136px;
+}
+
+.custom-collections .o_collection > .o_slideshow > .placeholder.target {
+    height: 102px;
+}
+
+.custom-collections .editZone .o_collection .o_slideshow {
+    margin: 0;
+    margin-right: 0px;
+}
+
+.custom-collections .editZone .o_slide {
+    margin: 0;
+    line-height: 1.1;
+}
+
+.custom-collections .editZone .o_slide.grouped + .o_slide.grouped {
+    margin-top: 9px;
+}
+
+.custom-collections .editZone .o_collection .o_slideshow.grouped + .o_slideshow.grouped {
+    margin-left: 20px;
+}
+
+/* indicator showing the connection of horizontal slides */
+
+.custom-collections .o_collection .o_slideshow.grouped + .o_slideshow.grouped > .o_slide:before {
+    content: '';
+    background: url(assets/chained.png);
+    background-size: 32px 16px;
+    width: 32px;
+    height: 16px;
+    position: absolute;
+    left: -20px;
+    top: 44%;
+    font-size: 22px;
+    color: black;
+}
+
+.custom-collections .editZone .o_collection .o_slideshow.grouped + .o_slideshow.grouped > .o_slide:before {
+    left: -25px;
+    font-size: 25px;
+}
+
+/* indicator showing the connection of vertical slides */
+
+.custom-collections .o_collection .o_slide.grouped + .o_slide.grouped:before {
+    content: '';
+    position: absolute;
+    background: url(assets/chained.png);
+    width: 32px;
+    height: 16px;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 0;
+    top: -13px;
+}
+
+.custom-collections .editZone .o_collection .o_slide.grouped + .o_slide.grouped:before {
+    top: -11px;
+}
+
+/*.custom-collections .editZone .o_collection .o_slideshow.grouped + .o_slideshow.grouped > .o_slide:before {
+    left: -18px;
+    top: 50%;
+    font-size: 25px;
+}*/
+
+.custom-collections .o_slide.source {
+    -webkit-transition: opacity .25s;
+    transition: opacity .25s;
+}
+
+.custom-collections .o_slide.source {
+    opacity: .5;
+}
+
+.custom-collections .divisor {
+    position: absolute;
+    top: 48%;
+    bottom: 48%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(157, 157, 157);
+    background: -webkit-linear-gradient(top, #ffffff, #d6d6d6);
+    background: linear-gradient(top, #ffffff, #d6d6d6);
+    -webkit-box-shadow: 0 3px 5px 0px #ccc;
+    box-shadow: 0 3px 5px 0px #ccc;
+    padding-top: 6px;
+}
+
+.custom-collections .divisor .instructions {
+    /* font-family: 'FrutigerRoman'; */
+    /* font-size: 17px; */
+    color: #676767;
+    display: inline;
+}
+
+.custom-collections .divisor .arrow {
+    background-image: url('assets/arrow.png');
+    width: 20px;
+    height: 11px;
+    display: inline-block;
+    box-sizing: border-box;
+    *display: inline;
+    background-size: 20px 9px;
+    background-repeat: no-repeat;
+    margin: 0px 9px;
+}
+
+.custom-collections .divisor .save,
+.custom-collections .divisor .cancel {
+    float: right;
+    display: inline;
+    margin-right: 10px;
+    height: 20px;
+    background-size: 28px 20px;
+    margin-left: 10px;
+    color: rgb(50, 155, 197);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.custom-collections .divisor .presentationName {
+    float: left;
+    color: #676767;
+    font-size: 14px;
+    margin-left: 10px;
+}
+

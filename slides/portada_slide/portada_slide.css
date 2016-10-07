@@ -1,0 +1,44 @@
+#portada_slide{
+    background: transparent url('assets/bg.png') no-repeat 0;
+}
+
+#portada_slide .brandLogo.huge {
+    top: 280px;
+    left: auto;
+    right: auto;
+    width: 85%;
+    height: 200px;
+    background-size: 40%;
+    background-position: center;
+}
+
+#portada_slide .brandLogo.huge:after {
+    content: "Placeholder Big Product Logo";
+    font-size: 40px;
+}
+
+#portada_slide .bayerLogo {
+    background-size: 114px 114px;
+    width: 114px;
+    height: 114px;
+    position: absolute;
+    top: 70px;
+    right: 38px;
+}
+
+
+/* Portrait and Landscape */
+@media only screen
+and (max-width: 736px)
+and (max-device-width: 736px) {
+
+    #portada_slide .brandLogo.huge{
+        width: 75%;
+    }
+
+    #portada_slide .slide-container{
+        width: 75%;
+    }
+
+
+}

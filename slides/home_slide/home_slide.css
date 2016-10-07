@@ -1,0 +1,17 @@
+#home_slide{
+    background: transparent url('assets/bg.png') no-repeat 0;
+}
+
+.box-menu{
+    position: absolute;
+    width: 1000px;
+    height: 800px;
+    margin-top: 103px;
+     color: transparent; 
+}
+
+.li-menu{
+    width: 498px;
+    height: 94px;
+    float: left;
+}

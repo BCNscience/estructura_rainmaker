@@ -1,0 +1,42 @@
+
+[data-module="ap-reference-library"]{
+    display: none;
+
+}
+
+[data-module="ap-reference-library"].state-visible{
+    display: block;
+}
+
+[data-module="ap-reference-library"] {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 15pt;
+    -webkit-box-sizing: border-box; -webkit-box-shadow: 0 0 5px 0 rgba(50, 50, 50, 0.5), inset 0 0 15px 0 rgba(50, 50, 50, 0.2);
+}
+
+
+[data-module="ap-reference-library"] h1 {
+    margin: 20px;
+}
+
+[data-module="ap-reference-library"] .scroll {
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    left: 20px;
+    right: 20px;
+    overflow: hidden;
+}
+
+[data-module="ap-reference-library"] ul {
+    list-style: none;
+    padding-right: 20px;
+}
+
+[data-module="ap-reference-library"] ul li.mediaEntry .tags {
+    display: none;
+}

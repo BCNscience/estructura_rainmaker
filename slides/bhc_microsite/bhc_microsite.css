@@ -1,0 +1,104 @@
+#bhc_microsite {}
+
+.bhc-microsite [data-module="ag-auto-menu"] {
+    display: none;
+}
+
+.bhc-microsite [data-module="ap-toolbar"] .ap-toolbar .bar [data-module-to-load="ap-overview"],
+.bhc-microsite [data-module="ap-toolbar"] .ap-toolbar .bar [data-module-to-load="ap-custom-collections-menu"],
+.bhc-microsite [data-module="ap-toolbar"] .ap-toolbar .bar [data-module-to-load="ap-video-library"],
+.bhc-microsite [data-module="ap-toolbar"] .ap-toolbar .bar [data-module-to-load="ap-follow-up-mail"],
+.bhc-microsite [data-module="ap-toolbar"] .ap-toolbar .bar [data-module-to-load="ap-media-library"],
+.bhc-microsite [data-module="ap-toolbar"] .ap-toolbar .bar [data-module-to-load="ap-reference-library"],
+.bhc-microsite [data-module="ap-toolbar"] .ap-toolbar .bar .notepad,
+.bhc-microsite [data-module="ap-toolbar"] .ap-toolbar .bar .jumpToLastSlide,
+.bhc-microsite [data-module="ap-toolbar"] .ap-toolbar .bar .back
+{
+    display: none;
+}
+
+#bhc_microsite .brandLogo.huge {
+    top: 180px;
+    left: auto;
+    right: auto;
+    width: 85%;
+    height: 200px;
+    background-size: 40%;
+    background-position: center;
+}
+
+#bhc_microsite .brandLogo.huge:after {
+    content: "Placeholder Big Product Logo";
+    font-size: 40px;
+}
+
+#bhc_microsite .bayerLogo {
+    background-size: 114px 114px;
+    width: 114px;
+    height: 114px;
+    position: absolute;
+    top: 38px;
+    right: 38px;
+}
+
+#bhc_microsite .slide-container{
+    position: absolute;
+    top: 400px;
+    left: auto;
+    right: auto;
+    width: 85%;
+    height: 220px;
+    background: darkgrey;
+}
+
+#bhc_microsite .slide-container{
+    margin-top: 25px;
+    padding: 20px;
+    overflow:scroll;
+    overflow-scrolling: touch;
+}
+#bhc_microsite .slide-container::after{
+    content:'';
+    clear:both;
+    display: table;
+}
+
+#bhc_microsite .slide-container .thumb{
+    position: relative;
+    width: 184px;
+    height: 155px;
+    background-color:white;
+    border-radius: 2px;
+    margin-right:13px;
+    float:left;
+    /*display: none;*/
+    -webkit-box-shadow: 0px 0px 5px 0px #999;
+    -moz-box-shadow: 0px 0px 5px 0px #999;
+    box-shadow: 0px 0px 5px 0px #999;
+    margin-bottom:13px;
+    cursor: pointer;
+}
+#bhc_microsite .slide-container .thumb .thumb-text{
+    position: absolute;
+    width:100%;
+    text-align: center;
+    bottom:6px;
+    font-size: 15px;
+}
+
+
+/* Portrait and Landscape */
+@media only screen
+and (max-width: 736px)
+and (max-device-width: 736px) {
+
+    #bhc_microsite .brandLogo.huge{
+        width: 75%;
+    }
+
+    #bhc_microsite .slide-container{
+        width: 75%;
+    }
+
+
+}

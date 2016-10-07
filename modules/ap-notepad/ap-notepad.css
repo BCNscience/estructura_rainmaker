@@ -1,0 +1,95 @@
+[data-module="ap-notepad"] {
+  
+}
+
+.Notepad {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 15pt;
+    z-index: 500;
+    -webkit-box-sizing: border-box;
+    -webkit-box-shadow: 0 0 50px 0 rgba(50, 50, 50, 0.5), inset 0 0 200px 0 rgba(50, 50, 50, 0.5);
+}
+
+.Notepad.active {
+    display: block;
+}
+
+.Notepad canvas {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+}
+
+.Notepad .palette {
+    position: absolute;
+    bottom: 3px;
+    left: 29px;
+    width: 173px;
+    height: 44px;
+    background: url("assets/palette_bg.png") center center no-repeat;
+    background-size: 173px 38px;
+}
+
+.Notepad .button {
+    position: absolute;
+    top: 0;
+    width: 44px;
+    height: 44px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 37px 28px;
+}
+
+.Notepad .button.clear {
+    right: 1px;
+    background-image: url("assets/radiergummi_grau.png");
+    background-size: 35px;
+}
+
+.Notepad .button.red {
+    right: 42px;
+    background-image: url("assets/button_red.png");
+    background-size: 28px 28px;
+}
+
+.Notepad .button.red.active {
+    background-image: url("assets/button_red_active.png");
+}
+
+.Notepad .button.green {
+    right: 81px;
+    background-image: url("assets/button_green.png");
+    background-size: 28px 28px;
+}
+
+.Notepad .button.green.active {
+    background-image: url("assets/button_green_active.png");
+}
+
+.Notepad .button.exit {
+    left: 1px;
+    background-image: url("assets/stift_blau.png");
+    background-size: 35px;
+}
+
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+    .Notepad .palette {
+        position: absolute;
+        bottom: 3px !important;
+        left: 200px !important;
+        top: auto !important;
+
+    }
+}

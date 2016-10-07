@@ -1,0 +1,9 @@
+{
+    "test-group-1": {
+        "orientation": "horizontal",
+        "slides": [
+            "test_slide_7",
+            "test_slide_8"
+        ]
+    }
+}

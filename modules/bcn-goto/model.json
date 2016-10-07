@@ -1,0 +1,10 @@
+{
+  "name": "Agnitio Video Module",
+  "description": "Wrapper for HTML5 video tag to add states and custom controls",
+  "files": {
+    "templates": ["modules/ag-video/ag-video.html"],
+    "styles": ["modules/ag-video/ag-video.css"],
+    "scripts": ["modules/ag-video/ag-video.js"]
+  },
+  "version": "0.9.6"
+}

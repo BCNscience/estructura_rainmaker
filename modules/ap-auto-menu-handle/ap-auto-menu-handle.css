@@ -1,0 +1,45 @@
+.accelerator .menu-container:not(:empty):after {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 25px;
+    background: url("assets/handle1920.png") center bottom no-repeat;
+    content: "";
+    min-width: 768px;
+
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 736px){
+
+    .accelerator .menu-container:not(:empty):after {
+        width: 100%;
+        min-width: inherit;
+    }
+
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+
+    .accelerator .menu-container:not(:empty):after {
+        width: 768px;
+    }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: landscape) {
+    .accelerator .menu-container:not(:empty):after {
+        width: 1024px;
+    }
+}
+
+
+@media all and (min-width: 1025px) and (orientation: landscape){
+    .accelerator .menu-container:not(:empty):after {
+        max-width: 1920px;
+    }
+}
+
+
+

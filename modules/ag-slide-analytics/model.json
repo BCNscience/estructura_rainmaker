@@ -1,0 +1,8 @@
+{
+  "name": "Agnitio Slide Analytics",
+  "description": "Save data about the slides visited. Will call ag.submit.slide(data).",
+  "files": {
+    "scripts": ["modules/ag-slide-analytics/ag-slide-analytics.js"]
+  },
+  "version": "0.7.0"
+}

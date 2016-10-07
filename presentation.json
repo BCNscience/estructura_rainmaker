@@ -1,0 +1,1018 @@
+{
+    "slides": {
+        "portada_slide": {
+            "id": "portada_slide",
+            "name": "portada_slide",
+            "files": {
+                "templates": [
+                    "slides/portada_slide/portada_slide.html"
+                ],
+                "scripts": [
+                    "slides/portada_slide/portada_slide.js"
+                ],
+                "styles": [
+                    "slides/portada_slide/portada_slide.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "portada_2_slide": {
+            "id": "portada_2_slide",
+            "name": "portada_2_slide",
+            "files": {
+                "templates": [
+                    "slides/portada_2_slide/portada_2_slide.html"
+                ],
+                "scripts": [
+                    "slides/portada_2_slide/portada_2_slide.js"
+                ],
+                "styles": [
+                    "slides/portada_2_slide/portada_2_slide.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "home_slide": {
+            "id": "home_slide",
+            "name": "home_slide",
+            "files": {
+                "templates": [
+                    "slides/home_slide/home_slide.html"
+                ],
+                "scripts": [
+                    "slides/home_slide/home_slide.js"
+                ],
+                "styles": [
+                    "slides/home_slide/home_slide.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "test_slide_1": {
+            "id": "test_slide_1",
+            "name": "test_slide_1",
+            "files": {
+                "templates": [
+                    "slides/test_slide_1/test_slide_1.html"
+                ],
+                "scripts": [
+                    "slides/test_slide_1/test_slide_1.js"
+                ],
+                "styles": [
+                    "slides/test_slide_1/test_slide_1.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "test_slide_2": {
+            "id": "test_slide_2",
+            "name": "test_slide_2",
+            "files": {
+                "templates": [
+                    "slides/test_slide_2/test_slide_2.html"
+                ],
+                "scripts": [
+                    "slides/test_slide_2/test_slide_2.js"
+                ],
+                "styles": [
+                    "slides/test_slide_2/test_slide_2.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "test_slide_2b": {
+            "id": "test_slide_2b",
+            "name": "test_slide_2b",
+            "files": {
+                "templates": [
+                    "slides/test_slide_2b/test_slide_2b.html"
+                ],
+                "scripts": [
+                    "slides/test_slide_2b/test_slide_2b.js"
+                ],
+                "styles": [
+                    "slides/test_slide_2b/test_slide_2b.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "test_slide_3": {
+            "id": "test_slide_3",
+            "name": "test_slide_3",
+            "files": {
+                "templates": [
+                    "slides/test_slide_3/test_slide_3.html"
+                ],
+                "scripts": [
+                    "slides/test_slide_3/test_slide_3.js"
+                ],
+                "styles": [
+                    "slides/test_slide_3/test_slide_3.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "test_slide_4": {
+            "id": "test_slide_4",
+            "name": "test_slide_4",
+            "files": {
+                "templates": [
+                    "slides/test_slide_4/test_slide_4.html"
+                ],
+                "scripts": [
+                    "slides/test_slide_4/test_slide_4.js"
+                ],
+                "styles": [
+                    "slides/test_slide_4/test_slide_4.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "test_slide_5": {
+            "id": "test_slide_5",
+            "name": "test_slide_5",
+            "files": {
+                "templates": [
+                    "slides/test_slide_5/test_slide_5.html"
+                ],
+                "scripts": [
+                    "slides/test_slide_5/test_slide_5.js"
+                ],
+                "styles": [
+                    "slides/test_slide_5/test_slide_5.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "test_slide_6": {
+            "id": "test_slide_6",
+            "name": "test_slide_6",
+            "files": {
+                "templates": [
+                    "slides/test_slide_6/test_slide_6.html"
+                ],
+                "scripts": [
+                    "slides/test_slide_6/test_slide_6.js"
+                ],
+                "styles": [
+                    "slides/test_slide_6/test_slide_6.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "test_slide_7": {
+            "id": "test_slide_7",
+            "name": "test_slide_7",
+            "files": {
+                "templates": [
+                    "slides/test_slide_7/test_slide_7.html"
+                ],
+                "scripts": [
+                    "slides/test_slide_7/test_slide_7.js"
+                ],
+                "styles": [
+                    "slides/test_slide_7/test_slide_7.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "test_slide_8": {
+            "id": "test_slide_8",
+            "name": "test_slide_8",
+            "files": {
+                "templates": [
+                    "slides/test_slide_8/test_slide_8.html"
+                ],
+                "scripts": [
+                    "slides/test_slide_8/test_slide_8.js"
+                ],
+                "styles": [
+                    "slides/test_slide_8/test_slide_8.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "test_slide_9": {
+            "id": "test_slide_9",
+            "name": "test_slide_9",
+            "files": {
+                "templates": [
+                    "slides/test_slide_9/test_slide_9.html"
+                ],
+                "scripts": [
+                    "slides/test_slide_9/test_slide_9.js"
+                ],
+                "styles": [
+                    "slides/test_slide_9/test_slide_9.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "test_slide_10": {
+            "id": "test_slide_10",
+            "name": "test_slide_10",
+            "files": {
+                "templates": [
+                    "slides/test_slide_10/test_slide_10.html"
+                ],
+                "scripts": [
+                    "slides/test_slide_10/test_slide_10.js"
+                ],
+                "styles": [
+                    "slides/test_slide_10/test_slide_10.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "popup_slide_1": {
+            "id": "popup_slide_1",
+            "name": "popup_slide_1",
+            "files": {
+                "templates": [
+                    "slides/popup_slide_1/popup_slide_1.html"
+                ],
+                "scripts": [
+                    "slides/popup_slide_1/popup_slide_1.js"
+                ],
+                "styles": [
+                    "slides/popup_slide_1/popup_slide_1.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "popup_slide_2": {
+            "id": "popup_slide_2",
+            "name": "popup_slide_2",
+            "files": {
+                "templates": [
+                    "slides/popup_slide_2/popup_slide_2.html"
+                ],
+                "scripts": [
+                    "slides/popup_slide_2/popup_slide_2.js"
+                ],
+                "styles": [
+                    "slides/popup_slide_2/popup_slide_2.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "popup_slide_2b": {
+            "id": "popup_slide_2b",
+            "name": "popup_slide_2b",
+            "files": {
+                "templates": [
+                    "slides/popup_slide_2b/popup_slide_2b.html"
+                ],
+                "scripts": [
+                    "slides/popup_slide_2b/popup_slide_2b.js"
+                ],
+                "styles": [
+                    "slides/popup_slide_2b/popup_slide_2b.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "popup_slide_3": {
+            "id": "popup_slide_3",
+            "name": "popup_slide_3",
+            "files": {
+                "templates": [
+                    "slides/popup_slide_3/popup_slide_3.html"
+                ],
+                "scripts": [
+                    "slides/popup_slide_3/popup_slide_3.js"
+                ],
+                "styles": [
+                    "slides/popup_slide_3/popup_slide_3.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "popup_slide_4": {
+            "id": "popup_slide_4",
+            "name": "popup_slide_4",
+            "files": {
+                "templates": [
+                    "slides/popup_slide_4/popup_slide_4.html"
+                ],
+                "scripts": [
+                    "slides/popup_slide_4/popup_slide_4.js"
+                ],
+                "styles": [
+                    "slides/popup_slide_4/popup_slide_4.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "popup_slide_5": {
+            "id": "popup_slide_5",
+            "name": "popup_slide_5",
+            "files": {
+                "templates": [
+                    "slides/popup_slide_5/popup_slide_5.html"
+                ],
+                "scripts": [
+                    "slides/popup_slide_5/popup_slide_5.js"
+                ],
+                "styles": [
+                    "slides/popup_slide_5/popup_slide_5.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "popup_slide_6": {
+            "id": "popup_slide_6",
+            "name": "popup_slide_6",
+            "files": {
+                "templates": [
+                    "slides/popup_slide_6/popup_slide_6.html"
+                ],
+                "scripts": [
+                    "slides/popup_slide_6/popup_slide_6.js"
+                ],
+                "styles": [
+                    "slides/popup_slide_6/popup_slide_6.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "popup_slide_7": {
+            "id": "popup_slide_7",
+            "name": "popup_slide_7",
+            "files": {
+                "templates": [
+                    "slides/popup_slide_7/popup_slide_7.html"
+                ],
+                "scripts": [
+                    "slides/popup_slide_7/popup_slide_7.js"
+                ],
+                "styles": [
+                    "slides/popup_slide_7/popup_slide_7.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "popup_slide_8": {
+            "id": "popup_slide_8",
+            "name": "popup_slide_8",
+            "files": {
+                "templates": [
+                    "slides/popup_slide_8/popup_slide_8.html"
+                ],
+                "scripts": [
+                    "slides/popup_slide_8/popup_slide_8.js"
+                ],
+                "styles": [
+                    "slides/popup_slide_8/popup_slide_8.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "popup_slide_9": {
+            "id": "popup_slide_9",
+            "name": "popup_slide_9",
+            "files": {
+                "templates": [
+                    "slides/popup_slide_9/popup_slide_9.html"
+                ],
+                "scripts": [
+                    "slides/popup_slide_9/popup_slide_9.js"
+                ],
+                "styles": [
+                    "slides/popup_slide_9/popup_slide_9.css"
+                ]
+            },
+            "shareable": {}
+        },
+        "popup_slide_10": {
+            "id": "popup_slide_10",
+            "name": "popup_slide_10",
+            "files": {
+                "templates": [
+                    "slides/popup_slide_10/popup_slide_10.html"
+                ],
+                "scripts": [
+                    "slides/popup_slide_10/popup_slide_10.js"
+                ],
+                "styles": [
+                    "slides/popup_slide_10/popup_slide_10.css"
+                ]
+            },
+            "shareable": {}
+        },
+        
+        "summary_slide": {
+            "id": "summary_slide",
+            "name": "summary_slide",
+            "files": {
+                "templates": [
+                    "slides/summary_slide/summary_slide.html"
+                ],
+                "scripts": [
+                    "slides/summary_slide/summary_slide.js"
+                ],
+                "styles": [
+                    "slides/summary_slide/summary_slide.css"
+                ]
+            },
+            "shareable": {}
+        }
+    },
+    "modules": {
+        "ag-slide-analytics": {
+            "name": "Agnitio Slide Analytics",
+            "description": "Save data about the slides visited. Will call ag.submit.slide(data).",
+            "files": {
+                "scripts": [
+                    "modules/ag-slide-analytics/ag-slide-analytics.js"
+                ]
+            },
+            "version": "0.7.0"
+        },
+        "ag-auto-menu": {
+            "name": "Agnitio Auto Menu",
+            "description": "Menu that automatically builds.",
+            "files": {
+                "styles": [
+                    "modules/ag-auto-menu/ag-auto-menu.css"
+                ],
+                "scripts": [
+                    "modules/ag-auto-menu/ag-auto-menu.js"
+                ]
+            },
+            "version": "0.8.5"
+        },
+        "ag-slide-popup": {
+            "files": {
+                "scripts": [
+                    "modules/ag-slide-popup/ag-slide-popup.js"
+                ],
+                "styles": [
+                    "modules/ag-slide-popup/ag-slide-popup.css"
+                ]
+            }
+        },
+        "ag-video": {
+            "name": "Agnitio Video Module",
+            "description": "Wrapper for HTML5 video tag to add states and custom controls",
+            "files": {
+                "templates": [
+                    "modules/ag-video/ag-video.html"
+                ],
+                "styles": [
+                    "modules/ag-video/ag-video.css"
+                ],
+                "scripts": [
+                    "modules/ag-video/ag-video.js"
+                ]
+            },
+            "version": "0.9.6"
+        },
+        "ag-viewer": {
+            "id": "ag-viewer",
+            "files": {
+                "scripts": [
+                    "modules/ag-viewer/ag-viewer.js"
+                ],
+                "styles": [
+                    "modules/ag-viewer/ag-viewer.css"
+                ]
+            }
+        },
+        "ag-builder": {
+            "id": "ag-builder",
+            "files": {
+                "scripts": [
+                    "modules/ag-builder/ag-builder.js"
+                ],
+                "styles": [
+                    "modules/ag-builder/ag-builder.css"
+                ]
+            }
+        },
+        "ap-toolbar": {
+            "id": "ap-toolbar",
+            "files": {
+                "templates": [
+                    "modules/ap-toolbar/ap-toolbar.html"
+                ],
+                "scripts": [
+                    "modules/ap-toolbar/ap-toolbar.js"
+                ],
+                "styles": [
+                    "modules/ap-toolbar/ap-toolbar.css"
+                ]
+            }
+        },
+        "ap-overview": {
+            "id": "ap-overview",
+            "files": {
+                "templates": [
+                    "modules/ap-overview/ap-overview.html"
+                ],
+                "scripts": [
+                    "modules/ap-overview/ap-overview.js"
+                ],
+                "styles": [
+                    "modules/ap-overview/ap-overview.css"
+                ]
+            }
+        },
+        "ap-module": {
+            "id": "ap-module",
+            "files": {
+                "templates": [
+                ],
+                "scripts": [
+                    "modules/ap-module/ap-module.js"
+                ],
+                "styles": [
+                ]
+            }
+        },
+        "ap-auto-menu-handle": {
+            "id": "ap-auto-menu-handle",
+            "files": {
+                "templates": [
+                ],
+                "scripts": [
+                    "modules/ap-auto-menu-handle/ap-auto-menu-handle.js"
+                ],
+                "styles": [
+                    "modules/ap-auto-menu-handle/ap-auto-menu-handle.css"
+                ]
+            }
+        },
+        "ap-custom-collections-storage": {
+            "id": "ap-custom-collections-storage",
+            "files": {
+                "templates": [
+                ],
+                "scripts": [
+                    "modules/ap-custom-collections-storage/ap-custom-collections-storage.js"
+                ],
+                "styles": [
+                ]
+            }
+        },
+        "ap-custom-collections-menu": {
+            "id": "ap-custom-collections-menu",
+            "files": {
+                "templates": [
+                    "modules/ap-custom-collections-menu/ap-custom-collections-menu.html"
+                ],
+                "scripts": [
+                    "modules/ap-custom-collections-menu/ap-custom-collections-menu.js"
+                ],
+                "styles": [
+                    "modules/ap-custom-collections-menu/ap-custom-collections-menu.css"
+                ]
+            }
+        },
+        "ap-custom-collections": {
+            "id": "ap-custom-collections",
+            "files": {
+                "templates": [
+                    "modules/ap-custom-collections/ap-custom-collections.html"
+                ],
+                "scripts": [
+                    "modules/ap-custom-collections/ap-custom-collections.js"
+                ],
+                "styles": [
+                    "modules/ap-custom-collections/ap-custom-collections.css"
+                ]
+            }
+        },
+        "ap-content-groups": {
+            "id": "ap-content-groups",
+            "files": {
+                "templates": [
+                ],
+                "scripts": [
+                    "modules/ap-content-groups/ap-content-groups.js"
+                ],
+                "styles": [
+                ]
+            }
+        },
+        "ap-auto-references-popup": {
+            "id": "ap-auto-references-popup",
+            "files": {
+                "templates": [
+                ],
+                "scripts": [
+                    "modules/ap-auto-references-popup/ap-auto-references-popup.js"
+                ],
+                "styles": [
+                    "modules/ap-auto-references-popup/ap-auto-references-popup.css"
+                ]
+            }
+        },
+        "ap-auto-side-clip": {
+            "id": "ap-auto-side-clip",
+            "files": {
+                "templates": [
+                ],
+                "scripts": [
+                    "modules/ap-auto-side-clip/ap-auto-side-clip.js"
+                ],
+                "styles": [
+                    "modules/ap-auto-side-clip/ap-auto-side-clip.css"
+                ]
+            }
+        },
+        "ap-media-repository": {
+            "id": "ap-media-repository",
+            "files": {
+                "templates": [
+                ],
+                "scripts": [
+                    "modules/ap-media-repository/ap-media-repository.js"
+                ]
+            }
+        },
+        "ap-back-navigation": {
+            "id": "ap-back-navigation",
+            "files": {
+                "templates": [
+                ],
+                "scripts": [
+                    "modules/ap-back-navigation/ap-back-navigation.js"
+                ],
+                "styles": [
+                ]
+            }
+        },
+        "ap-favorite-presentations-buttons": {
+            "id": "ap-favorite-presentations-buttons",
+            "files": {
+                "templates": [
+                    "modules/ap-favorite-presentations-buttons/ap-favorite-presentations-buttons.html"
+                ],
+                "scripts": [
+                    "modules/ap-favorite-presentations-buttons/ap-favorite-presentations-buttons.js"
+                ],
+                "styles": [
+                    "modules/ap-favorite-presentations-buttons/ap-favorite-presentations-buttons.css"
+                ]
+            }
+        },
+        "ap-media-library": {
+            "id": "ap-media-library",
+            "files": {
+                "templates": [
+                    "modules/ap-media-library/ap-media-library.html"
+                ],
+                "scripts": [
+                    "modules/ap-media-library/ap-media-library.js"
+                ],
+                "styles": [
+                    "modules/ap-media-library/ap-media-library.css"
+                ]
+            }
+        },
+        "ap-reference-library": {
+            "id": "ap-reference-library",
+            "files": {
+                "templates": [
+                    "modules/ap-reference-library/ap-reference-library.html"
+                ],
+                "scripts": [
+                    "modules/ap-reference-library/ap-reference-library.js"
+                ],
+                "styles": [
+                    "modules/ap-reference-library/ap-reference-library.css"
+                ]
+            }
+        },
+        "ap-video-library": {
+            "id": "ap-video-library",
+            "files": {
+                "templates": [
+                    "modules/ap-video-library/ap-video-library.html"
+                ],
+                "scripts": [
+                    "modules/ap-video-library/ap-video-library.js"
+                ],
+                "styles": [
+                    "modules/ap-video-library/ap-video-library.css"
+                ]
+            }
+        },
+        "ap-specific-product-characteristics": {
+            "id": "ap-specific-product-characteristics",
+            "files": {
+                "templates": [
+                ],
+                "scripts": [
+                    "modules/ap-specific-product-characteristics/ap-specific-product-characteristics.js"
+                ],
+                "styles": [
+                ]
+            }
+        },
+        "ap-follow-up-mail": {
+            "id": "ap-follow-up-mail",
+            "files": {
+                "templates": [
+                    "modules/ap-follow-up-mail/ap-follow-up-mail.html"
+                ],
+                "scripts": [
+                    "modules/ap-follow-up-mail/ap-follow-up-mail.js"
+                ],
+                "styles": [
+                    "modules/ap-follow-up-mail/ap-follow-up-mail.css"
+                ]
+            }
+        },
+        "ap-frequently-asked-questions": {
+            "id": "ap-frequently-asked-questions",
+            "files": {
+                "templates": [
+                    "modules/ap-frequently-asked-questions/ap-frequently-asked-questions.html"
+                ],
+                "scripts": [
+                    "modules/ap-frequently-asked-questions/ap-frequently-asked-questions.js"
+                ],
+                "styles": [
+                    "modules/ap-frequently-asked-questions/ap-frequently-asked-questions.css"
+                ]
+            }
+        },
+        "ap-notepad": {
+            "id": "ap-notepad",
+            "files": {
+                "templates": [
+                    "modules/ap-notepad/ap-notepad.html"
+                ],
+                "scripts": [
+                    "modules/ap-notepad/ap-notepad.js"
+                ],
+                "styles": [
+                    "modules/ap-notepad/ap-notepad.css"
+                ]
+            }
+        },
+        "ap-slide-indicator": {
+            "id": "ap-slide-indicator",
+            "files": {
+                "templates": [
+                    "modules/ap-slide-indicator/ap-slide-indicator.html"
+                ],
+                "scripts": [
+                    "modules/ap-slide-indicator/ap-slide-indicator.js"
+                ],
+                "styles": [
+                    "modules/ap-slide-indicator/ap-slide-indicator.css"
+                ]
+            }
+        },
+        "ap-provide-slides": {
+            "id": "ap-provide-slides",
+            "files": {
+                "templates": [
+                    "modules/ap-provide-slides/ap-provide-slides.html"
+                ],
+                "scripts": [
+                    "modules/ap-provide-slides/ap-provide-slides.js"
+                ],
+                "styles": [
+                    "modules/ap-provide-slides/ap-provide-slides.css"
+                ]
+            }
+        },
+        "ap-add-slide-button": {
+            "id": "ap-add-slide-button",
+            "files": {
+                "templates": [
+                    "modules/ap-add-slide-button/ap-add-slide-button.html"
+                ],
+                "scripts": [
+                    "modules/ap-add-slide-button/ap-add-slide-button.js"
+                ],
+                "styles": [
+                    "modules/ap-add-slide-button/ap-add-slide-button.css"
+                ]
+            }
+        },
+        "bcn-goto": {
+            "id": "bcn-goto",
+            "files": {
+                "templates": [
+                ],
+                "scripts": [
+                    "modules/bcn-goto/bcn-goto.js"
+                ],
+                "styles": [
+                ]
+            }
+        }
+    },
+    "structures": {
+        "portada": {
+            "name": "",
+            "id": "portada",
+            "content": "portada_slide",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "portada_2": {
+            "name": "",
+            "id": "portada_2",
+            "content": "portada_2_slide",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "home": {
+            "name": "Home",
+            "id": "home",
+            "content": "home_slide",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "chapter_1": {
+            "name": "Limpiador Dental",
+            "id": "chapter_1",
+            "content": "test_slide_1",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "chapter_2": {
+            "name": "Neutrolor Ambiente",
+            "id": "chapter_2",
+            "content": [
+                "test_slide_2",
+                "test_slide_2b"
+            ],
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "chapter_3": {
+            "name": "Toallitas Higiénicas",
+            "id": "chapter_3",
+            "content": "test_slide_3",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "chapter_4": {
+            "name": "Toallitas Higiénicas con Cidronela",
+            "id": "chapter_4",
+            "content": "test_slide_4",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "chapter_5": {
+            "name": "Murnil",
+            "id": "chapter_5",
+            "content": "test_slide_5",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "chapter_6": {
+            "name": "Shampoo Espuma Seca ",
+            "id": "chapter_6",
+            "content": "test_slide_6",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "chapter_7": {
+            "name": "Malta",
+            "id": "chapter_7",
+            "content": "test_slide_7",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "chapter_8": {
+            "name": "Shampoo Neutrolor",
+            "id": "chapter_8",
+            "content": "test_slide_8",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "chapter_9": {
+            "name": "Calcio Vitamina D3",
+            "id": "chapter_9",
+            "content": "test_slide_9",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "chapter_10": {
+            "name": "Vetriderm",
+            "id": "chapter_10",
+            "content": "test_slide_10",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "popup_chapter_1": {
+            "name": "",
+            "id": "popup_chapter_1",
+            "content": "popup_slide_1",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "popup_chapter_2": {
+            "name": "",
+            "id": "popup_chapter_2",
+            "content": "popup_slide_2",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "popup_chapter_2b": {
+            "name": "",
+            "id": "popup_chapter_2b",
+            "content": "popup_slide_2b",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "popup_chapter_3": {
+            "name": "",
+            "id": "popup_chapter_3",
+            "content": "popup_slide_3",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "popup_chapter_4": {
+            "name": "",
+            "id": "popup_chapter_4",
+            "content": "popup_slide_4",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "popup_chapter_5": {
+            "name": "",
+            "id": "popup_chapter_5",
+            "content": "popup_slide_5",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "popup_chapter_6": {
+            "name": "",
+            "id": "popup_chapter_6",
+            "content": "popup_slide_6",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "popup_chapter_7": {
+            "name": "",
+            "id": "popup_chapter_7",
+            "content": "popup_slide_7",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "popup_chapter_8": {
+            "name": "",
+            "id": "popup_chapter_8",
+            "content": "popup_slide_8",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "popup_chapter_9": {
+            "name": "",
+            "id": "popup_chapter_9",
+            "content": "popup_slide_9",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "popup_chapter_10": {
+            "name": "",
+            "id": "popup_chapter_10",
+            "content": "popup_slide_10",
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "summary": {
+            "name": "",
+            "id": "summary",
+            "content": "summary_slide",
+            "type": "slideshow",
+            "shareable": {}
+        }
+    },
+    "storyboard": [
+        "test_collection_1"
+    ],
+    "storyboards": {
+        "test_collection_1": {
+            "content": [
+                "portada",
+                "portada_2",
+                "home",
+                "chapter_1",
+                "chapter_2",
+                "chapter_3",
+                "chapter_4",
+                "chapter_5",
+                "chapter_6",
+                "chapter_7",
+                "chapter_8",
+                "chapter_9",
+                "chapter_10",
+                "summary"
+            ],
+            "name": "Collection 1",
+            "linear": false,
+            "id": "test_collection_1",
+            "type": "collection"
+        }
+    }
+}

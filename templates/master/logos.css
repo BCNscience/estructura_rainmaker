@@ -1,0 +1,51 @@
+html.ag-microsite .bayerLogo,
+html.ag-microsite .bayerLogoWhite {
+    top: 38px;
+}
+
+.bayerLogo {
+    background: url(assets/images/bayer-logo-rgb.png) no-repeat;
+}
+
+.bayerLogoWhite {
+    background: url(assets/images/bayer-logo-white.png) no-repeat;
+}
+
+.bayerLogo,
+.bayerLogoWhite{
+    background-size: 60px 60px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+}
+
+.brandLogo {
+    width: 170px;
+    height: 60px;
+    position: absolute;
+    bottom: 60px;
+    right: 20px;
+    background-color: black;
+}
+
+.brandLogo:after {
+    content: "Placeholder Product Logo";
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 17px;
+}
+
+.slide.black .brandLogo {
+    background-color: white;
+}
+
+.slide.black .brandLogo:after {
+    color: black;
+}

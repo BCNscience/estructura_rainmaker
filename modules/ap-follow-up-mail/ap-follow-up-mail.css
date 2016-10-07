@@ -1,0 +1,133 @@
+[data-module="ap-follow-up-mail"] {
+    display: none;
+
+}
+
+[data-module="ap-follow-up-mail"].state-visible {
+    display: block;
+
+}
+
+[data-module="ap-follow-up-mail"] {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 15pt;
+}
+
+[data-module="ap-follow-up-mail"] .mail {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 0 5px 0 rgba(50, 50, 50, 0.5), inset 0 0 15px 0 rgba(50, 50, 50, 0.2);
+    box-shadow: 0 0 5px 0 rgba(50, 50, 50, 0.5), inset 0 0 15px 0 rgba(50, 50, 50, 0.2);
+}
+
+[data-module="ap-follow-up-mail"] .mail h1 {
+    display: inline-block;
+    margin: 20px;
+}
+
+[data-module="ap-follow-up-mail"] .mail .sendButton {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 226px;
+    height: 40px;
+    text-align: center;
+    padding-top: 13px;
+    box-sizing: border-box;
+    color: white;
+    background: -webkit-linear-gradient(#189CC9, #127CB8);
+    background: linear-gradient(#189CC9, #127CB8);
+    border-radius: 5px;
+    border: 1px solid #72C6DF;
+}
+
+[data-module="ap-follow-up-mail"] .mail .clearButton {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 226px;
+    height: 40px;
+    text-align: center;
+    padding-top: 13px;
+    box-sizing: border-box;
+    color: white;
+    background: -webkit-linear-gradient(#C91818, #B81212);
+    background: linear-gradient(#C91818, #B81212);
+    border-radius: 5px;
+    border: 1px solid #DF7272;
+}
+
+[data-module="ap-follow-up-mail"] .library {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -webkit-box-shadow: 0 0 5px 0 rgba(50, 50, 50, 0.5), inset 0 0 15px 0 rgba(50, 50, 50, 0.2);
+    box-sizing: border-box;
+    box-shadow: 0 0 5px 0 rgba(50, 50, 50, 0.5), inset 0 0 15px 0 rgba(50, 50, 50, 0.2);
+}
+
+[data-module="ap-follow-up-mail"] ul li.mediaEntry {
+    font-size: 12pt;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+[data-module="ap-follow-up-mail"] ul li.mediaEntry .title {
+    display: inline;
+}
+
+[data-module="ap-follow-up-mail"] ul li.mediaEntry .tags {
+    display: none;
+}
+
+[data-module="ap-follow-up-mail"] .library .MediaLibrary input {
+    width: 265px;
+}
+
+[data-module="ap-follow-up-mail"] .library ul li.mediaEntry[data-is-attached="true"] {
+    opacity: .2;
+}
+
+[data-module="ap-follow-up-mail"] .attachments ul li.mediaEntry[data-is-attached="false"] {
+    display: none;
+}
+
+[data-module="ap-follow-up-mail"] .attachments .MediaLibrary > input,
+[data-module="ap-follow-up-mail"] .attachments .MediaLibrary > h1 {
+    display: none;
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+
+    [data-module="ap-follow-up-mail"] .mail .sendButton {
+        bottom: 80px;
+        left: 75px;
+    }
+
+    [data-module="ap-follow-up-mail"] .mail .clearButton {
+        bottom: 20px;
+        left: 75px;
+    }
+
+    [data-module="ap-follow-up-mail"] .library .MediaLibrary input {
+        position: relative;
+        left: 20px;
+        width: 325px;
+    }
+
+    [data-module="ap-follow-up-mail"] .library .MediaLibrary .scroll {
+        top: 100px;
+    }
+}

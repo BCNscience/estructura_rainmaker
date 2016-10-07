@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Helvetica;
+    src: url('assets/fonts/HelveticaLTStd-Roman.eot?#iefix') format('embedded-opentype'), url('assets/fonts/HelveticaLTStd-Roman.otf') format('opentype'),
+        url('assets/fonts/HelveticaLTStd-Roman.woff') format('woff'), url('assets/fonts/HelveticaLTStd-Roman.ttf') format('truetype'), url('assets/fonts/HelveticaLTStd-Roman.svg#HelveticaLTStd-Roman') format('svg');
+
+    font-weight: normal;
+
+}
+
+@font-face {
+    font-family: Helvetica-Bold;
+    src: url('assets/fonts/HelveticaBold.eot?#iefix') format('embedded-opentype'), url('assets/fonts/HelveticaBold.otf') format('opentype'),
+        url('assets/fonts/HelveticaBold.woff') format('woff'), url('assets/fonts/HelveticaBold.ttf') format('truetype'), url('assets/fonts/HelveticaBold.svg#HelveticaBold') format('svg');
+
+    font-weight: bold;
+
+}
+
+@font-face {
+    font-family: HelveticaLTStd-Bold;
+    src: url('assets/fonts/HelveticaLTStd-Bold.eot?#iefix') format('embedded-opentype'), url('assets/fonts/HelveticaLTStd-Bold.otf') format('opentype'),
+        url('assets/fonts/HelveticaLTStd-Bold.woff') format('woff'), url('assets/fonts/HelveticaLTStd-Bold.ttf') format('truetype'), url('assets/fonts/HelveticaLTStd-Bold.svg#HelveticaLTStd') format('svg');
+
+}
+
+@font-face {
+    font-family: Helvetica-Italic;
+    src: url('assets/fonts/HelveticaLTOblique.eot?#iefix') format('embedded-opentype'), url('assets/fonts/HelveticaLTOblique.otf') format('opentype'),
+        url('assets/fonts/HelveticaLTOblique.woff') format('woff'), url('assets/fonts/HelveticaLTOblique.ttf') format('truetype'), url('assets/fonts/HelveticaLTOblique.svg#HelveticaLTOblique') format('svg');
+
+}
+
+@font-face {
+    font-family: HelveticaLT;
+    src: url('assets/fonts/HelveticaLT.eot?#iefix') format('embedded-opentype'), url('assets/fonts/HelveticaLT.otf') format('opentype'),
+        url('assets/fonts/HelveticaLT.woff') format('woff'), url('assets/fonts/HelveticaLT.ttf') format('truetype'), url('assets/fonts/HelveticaLT.svg#HelveticaLT') format('svg');
+
+}
+
+
+@font-face {
+    font-family: HelveticaNeueLTPro-Bd;
+    src: url('assets/fonts/HelveticaNeueLTPro-Bd.eot?#iefix') format('embedded-opentype'),  url('assets/fonts/HelveticaNeueLTPro-Bd.otf')  format('opentype'),
+        url('assets/fonts/HelveticaNeueLTPro-Bd.woff') format('woff'), url('assets/fonts/HelveticaNeueLTPro-Bd.ttf')  format('truetype'), url('assets/fonts/HelveticaNeueLTPro-Bd.svg#assets/fonts/HelveticaNeueLTPro-Bd') format('svg');
+}

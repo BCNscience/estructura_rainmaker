@@ -1,0 +1,51 @@
+
+
+[data-module="ap-frequently-asked-questions"] {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 15pt;
+    -webkit-box-sizing: border-box; -webkit-box-shadow: 0 0 5px 0 rgba(50, 50, 50, 0.5), inset 0 0 15px 0 rgba(50, 50, 50, 0.2);
+}
+
+[data-module="ap-frequently-asked-questions"].state-visible{
+    display: block;
+
+}
+
+
+.FrequentlyAskedQuestions h1 {
+    margin: 20px;
+}
+
+.FrequentlyAskedQuestions .scroll {
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    left: 20px;
+    right: 20px;
+    overflow: hidden;
+}
+
+.FrequentlyAskedQuestions ol {
+    margin-left: 40px;
+}
+
+.FrequentlyAskedQuestions li {
+    margin-bottom: 20px;
+}
+
+.FrequentlyAskedQuestions li .q {
+    margin-bottom: 10px;
+}
+
+.FrequentlyAskedQuestions li .a {
+    display: none;
+}
+
+.FrequentlyAskedQuestions li.maximized .a {
+    display: block;
+}

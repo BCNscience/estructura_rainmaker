@@ -1,0 +1,10 @@
+{
+  "name": "Agnitio Viewer Module",
+  "description": "View PDFs, websites and slides in presentation",
+  "type": "global",
+  "files": {
+    "styles": ["modules/ag-viewer/ag-viewer.css"],
+    "scripts": ["modules/ag-viewer/ag-viewer.js"]
+  },
+  "version": "1.1.0"
+}

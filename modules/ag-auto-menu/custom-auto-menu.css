@@ -1,0 +1,126 @@
+.accelerator [data-module="ag-auto-menu"] .staticHomeButton {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 62px;
+
+    z-index: 2;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#e8e8e8));
+    background-image: linear-gradient(to left bottom ,#f6f6f6, #e8e8e8);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    min-width: 194px;
+    width: auto;
+    padding: 0;
+    border-right: thin solid #dbdbdb;
+    font: 15px HelveticaNeueLTPro-Bd;
+    color: #676767;
+    text-align: center;
+}
+
+.accelerator [data-module="ag-auto-menu"] .staticHomeIcon {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("assets/home-icon.png") center no-repeat;
+    pointer-events: none;
+}
+
+.accelerator [data-module="ag-auto-menu"] {
+    position: absolute;
+    width: 100%;
+    height: 62px;
+    transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+
+.accelerator .menu {
+    display: -webkit-box;
+    display: -moz-box;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    overflow: visible;
+    white-space: pre-wrap;
+    font-size: 19px;
+    width: 10000px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    position: relative;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#e8e8e8));
+    background-image: linear-gradient(to left bottom, #f6f6f6, #e8e8e8);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.accelerator .menu-container{
+    width: 100%;
+}
+
+.accelerator [data-module="ag-auto-menu"].state-hidden .menu-container{
+    /*display: none;*/
+    width: auto;
+}
+
+.accelerator .menu li {
+/*    position: relative;
+    display: inline-block;
+    width: 86px;
+    height: 62px;
+    padding: 0;
+    border-right: thin solid #dbdbdb;
+    font: 15px HelveticaNeueLTPro-Bd;
+    color: #6f6f6f;
+    text-align: center;
+    line-height: 62px;*/
+
+    position: relative;
+    display: inline-block;
+    width: 86px;
+    height: 62px;
+    border-right: thin solid #dbdbdb;
+    font: 12px HelveticaNeueLTPro-Bd;
+    color: #6f6f6f;
+    text-align: center;
+    line-height: 16px;
+    float: left;
+    padding: 0px;
+}
+
+.accelerator .menu li.selected {
+    background: url("assets/active-item.png");
+    -webkit-box-shadow: inset 0 0 50px 0 rgba(50, 155, 197, 0.4);
+    -moz-box-shadow: inset 0 0 50px 0 rgba(50, 155, 197, 0.4);
+    box-shadow: inset 0 0 50px 0 rgba(50, 155, 197, 0.4);
+    /*-webkit-box-shadow: 0 0 5px 0 rgba(50, 50, 50, 1), inset 0 0 15px 0 rgba(50, 50, 50, .5);*/
+}
+
+/*
+#mainmenu .menu li.selected:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1691C3;
+    opacity: 0.1;
+}
+*/
+.accelerator .menu li:first-child {
+    background: url("assets/home-icon.png") center no-repeat;
+    color: transparent;
+}
+
+.accelerator .menu li:last-child {
+    background: url("assets/summary-icon.png") center no-repeat;
+    color: transparent;
+}

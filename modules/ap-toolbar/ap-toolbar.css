@@ -1,0 +1,255 @@
+[data-module="ap-toolbar"] {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 715px;
+}
+
+[data-module="ap-toolbar"] .ap-toolbar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 715px;
+    background-color: #F6F6F6;
+    -webkit-transition: -webkit-transform .6s;
+    -moz-transition: -moz-transform .6s;
+    -ms-transition: -ms-transform .6s;
+    transition: transform .6s;
+    -webkit-transform: translate3d(0, 93%, 0);
+    -ms-transform: translate3d(0, 93%, 0);
+    transform: translate3d(0, 93%, 0);
+    z-index: 101;
+
+}
+
+[data-module="ap-toolbar"].state-hidden .ap-toolbar {
+    -webkit-transform: translate3d(0, 100%, 0);
+    -moz-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+}
+
+[data-module="ap-toolbar"].state-minimized .ap-toolbar {
+    -moz-transform: translate3d(0, 667px, 0);
+    -webkit-transform: translate3d(0, 667px, 0);
+    transform: translate3d(0, 667px, 0);
+}
+
+[data-module="ap-toolbar"].state-maximized .ap-toolbar {
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+[data-module="ap-toolbar"] .ap-toolbar:before {
+    display: block;
+    position: absolute;
+    top: -25px;
+    left: 0;
+    right: 0;
+    height: 25px;
+    background: url("assets/handle1920.png") center top no-repeat;
+    content: "";
+}
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button {
+    float: right;
+    width: 64px;
+    height: 50px;
+    margin-left: 10px;
+    font-size: 8pt;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: 50%, 100%;
+}
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button.active:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: 50%, 100%;
+}
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button.back {
+    position: absolute;
+    left: 75px;
+    background-image: url("assets/back.png");
+    background-size: 40%;
+}
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button.jumpToLastSlide {
+    position: absolute;
+    left: 125px;
+    background-image: url("assets/Icon_GoToLastSlide.png");
+    background-size: 50%;
+
+}
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button.notepad {
+    /*position: absolute;
+    left: 0;*/
+    background-image: url("assets/stift_grau.png");
+    background-size: 35px;
+}
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button.notepad.active {
+    background-image: none;
+}
+
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button[data-module-to-load="ap-frequently-asked-questions"] {
+    background-image: url("assets/fragen_grau.png");
+}
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button[data-module-to-load="ap-frequently-asked-questions"].active {
+    background-image: url("assets/fragen_blau.png"), url("assets/activebg.png");
+}
+
+
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button[data-module-to-load="ap-specific-product-characteristics"] {
+    background-image: url("assets/spc_grau.png");
+}
+
+/*
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button[data-module-to-load="ap-specific-product-characteristics"].active {
+    background-image: url("assets/spc_blau.png"), url("assets/activebg.png");
+}
+*/
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button[data-module-to-load="ap-custom-collections-menu"] {
+    background-image: url("assets/einstellungen_grau.png");
+}
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button[data-module-to-load="ap-custom-collections-menu"].active {
+    background-image: url("assets/einstellungen_blau.png"), url("assets/activebg.png");
+}
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button[data-module-to-load="ap-video-library"] {
+    background-image: url("assets/play_grau.png");
+}
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button[data-module-to-load="ap-video-library"].active {
+    background-image: url("assets/play_blau.png"), url("assets/activebg.png");
+}
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button[data-module-to-load="ap-follow-up-mail"] {
+    background-image: url("assets/brief_grau.png");
+}
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button[data-module-to-load="ap-follow-up-mail"].active {
+    background-image: url("assets/brief_blau.png"), url("assets/activebg.png");
+}
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button[data-module-to-load="ap-media-library"] {
+    background-image: url("assets/Icon_MediaLibrary.png");
+}
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button[data-module-to-load="ap-media-library"].active {
+    background-image: url("assets/Icon_MediaLibrary_active.png"), url("assets/activebg.png");
+}
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button[data-module-to-load="ap-overview"] {
+    background-image: url("assets/rechtecke_grau.png");
+    margin-right: 70px;
+}
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button[data-module-to-load="ap-overview"].active {
+    background-image: url("assets/rechtecke_blau.png");
+}
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button[data-module-to-load="ap-reference-library"] {
+    background-image: url("assets/i_grau.png");
+}
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button[data-module-to-load="ap-reference-library"].active {
+    background-image: url("assets/i_blau.png");
+}
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button[data-module-to-load="ap-provide-slides"] {
+    background-image: url("assets/microsite.png");
+
+}
+
+[data-module="ap-toolbar"] .ap-toolbar > .bar .button[data-module-to-load="ap-provide-slides"].active {
+    background-image: url("assets/microsite_active.png");
+}
+
+
+[data-module="ap-toolbar"] .ap-toolbar > .content {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-box-shadow: 0 0 5px 0 rgba(50, 50, 50, 0.5), inset 0 0 15px 0 rgba(50, 50, 50, 0.2);
+    -moz-box-shadow: 0 0 5px 0 rgba(50, 50, 50, 0.5), inset 0 0 15px 0 rgba(50, 50, 50, 0.2);
+    box-shadow: 0 0 5px 0 rgba(50, 50, 50, 0.5), inset 0 0 15px 0 rgba(50, 50, 50, 0.2);
+}
+
+[data-module="ap-toolbar"] .ap-toolbar.microsite .bar [data-module-to-load="ap-overview"],
+[data-module="ap-toolbar"] .ap-toolbar.microsite .bar [data-module-to-load="ap-custom-collections-menu"],
+[data-module="ap-toolbar"] .ap-toolbar.microsite .bar [data-module-to-load="ap-video-library"],
+[data-module="ap-toolbar"] .ap-toolbar.microsite .bar [data-module-to-load="ap-follow-up-mail"],
+[data-module="ap-toolbar"] .ap-toolbar.microsite .bar [data-module-to-load="ap-media-library"],
+[data-module="ap-toolbar"] .ap-toolbar.microsite .bar [data-module-to-load="ap-reference-library"],
+[data-module="ap-toolbar"] .ap-toolbar.microsite .button[data-module-to-load="ap-provide-slides"],
+[data-module="ap-toolbar"] .ap-toolbar.microsite .bar .notepad,
+[data-module="ap-toolbar"] .ap-toolbar.microsite .bar .jumpToLastSlide,
+[data-module="ap-toolbar"] .ap-toolbar.microsite .bar .back {
+    display: none;
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+
+
+
+    [data-module="ap-toolbar"] .ap-toolbar > .bar .button {
+        margin-left: -15px;
+
+    }
+
+    [data-module="ap-toolbar"] .ap-toolbar > .bar .button.back {
+        left: 85px;
+    }
+
+    [data-module="ap-toolbar"] .ap-toolbar > .bar .button.jumpToLastSlide {
+        left: 135px;
+
+    }
+}
+
+@media all and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
+    [data-module="ap-toolbar"] .ap-toolbar > .bar .button {
+        margin-left: 0;
+
+    }
+
+    [data-module="ap-toolbar"] .ap-toolbar > .bar .button {
+        margin-left: 0;
+
+    }
+
+    [data-module="ap-toolbar"] .ap-toolbar > .bar .button.back {
+        left: 85px;
+    }
+
+    [data-module="ap-toolbar"] .ap-toolbar > .bar .button.jumpToLastSlide {
+        left: 135px;
+
+    }
+}
