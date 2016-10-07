@@ -1,100 +1,101 @@
 {
-    "name": "Bayer Health Care Rainmaker Template (replace with the name of your presentation)",
-    "model": "presentation.json",
-    "paths": {
-        "slides": "slides/<id>/",
-        "modules": "modules/<id>/",
-        "thumbs": "slides/<id>/<id>.png",
-        "scripts": "slides/<id>/<id>.js",
-        "styles": "slides/<id>/<id>.css",
-        "references": "shared/references/<id>.pdf"
-    },
-    "startPath": "test_collection_1",
-    "lang": "en",
-    "transition": "linear",
-    "plugins": [
-        "storyboard"
-    ],
-    "bundle": {
-        "presentation": {
-            "styles": [
-                "accelerator/css/styles.css",
-                "templates/master/**/*.{css,styl}",
-                "modules/**/*.{css,styl}",
-                "slides/**/*.{css,styl}"
-            ],
-            "scripts": [
-                "accelerator/js/init.js",
-                "accelerator/lib/head.min.js",
-                "templates/master/**/*.js",
-                "modules/**/*.{js,html,jade,md}",
-                "slides/**/*.{js,html,jade,md}",
-                "config.json",
-                "presentation.json",
-                "references.json",
-                "media.json"
-            ]
-        },
-        "translations": {
-            "templates": [
-                "slides/**/translations/*.json"
-            ]
-        }
-    },
-    "dependencies": [
-        {
-            "src": "accelerator/lib/draggy.js"
-        },
-        {
-            "src": "accelerator/lib/touchy.js"
-        },
-        {
-            "src": "accelerator/lib/jquery.min.js"
-        },
-        {
-            "src": "_vendor/jquery-ui.min.js"
-        },
-        {
-            "src": "_vendor/jquery.ui.touch-punch.js"
-        },
-        {
-            "src": "_vendor/jquery.requestAnimationFrame.js"
-        },
-        {
-            "src": "_vendor/cdm.sketcher.js"
-        },
-        {
-            "src": "_vendor/iscroll.js"
-        },
-        {
-            "src": "_vendor/apprise-1.5.full.js"
-        },
-        {
-            "src": "_vendor/apprise.css"
-        }
-    ],
-    "iPlanner": {
-        "bounce": false
-    },
-    "ag-microsites": {
-        "startPath": "ag-microsites"
-    },
-    "ag-engager": {
-        "width": 1024,
-        "height": 760
-    },
-    "debug": {
-        "dependencies": [
-            {
-                "src": "accelerator/lib/draggy.js"
-            },
-            {
-                "src": "accelerator/lib/jquery.min.js"
-            }
-        ]
-    },
-    "width": "100%",
-    "height": "100%",
-    "margin": 0,
-    "padding": 0
+ "name": "Bayer Health Care Rainmaker Template (replace with the name of your presentation)",
+ "model": "presentation.json",
+ "paths": {
+  "slides": "slides/<id>/",
+  "modules": "modules/<id>/",
+  "thumbs": "slides/<id>/<id>.png",
+  "scripts": "slides/<id>/<id>.js",
+  "styles": "slides/<id>/<id>.css",
+  "references": "shared/references/<id>.pdf"
+ },
+ "startPath": "test_collection_1",
+ "lang": "en",
+ "transition": "linear",
+ "plugins": [
+  "storyboard"
+ ],
+ "bundle": {
+  "presentation": {
+   "styles": [
+    "accelerator/css/styles.css",
+    "templates/master/**/*.{css,styl}",
+    "modules/**/*.{css,styl}",
+    "slides/**/*.{css,styl}"
+   ],
+   "scripts": [
+    "accelerator/js/init.js",
+    "accelerator/lib/head.min.js",
+    "templates/master/**/*.js",
+    "modules/**/*.{js,html,jade,md}",
+    "slides/**/*.{js,html,jade,md}",
+    "config.json",
+    "presentation.json",
+    "references.json",
+    "media.json"
+   ]
+  },
+  "translations": {
+   "templates": [
+    "slides/**/translations/*.json"
+   ]
+  }
+ },
+ "dependencies": [
+  {
+   "src": "accelerator/lib/draggy.js"
+  },
+  {
+   "src": "accelerator/lib/touchy.js"
+  },
+  {
+   "src": "accelerator/lib/jquery.min.js"
+  },
+  {
+   "src": "_vendor/jquery-ui.min.js"
+  },
+  {
+   "src": "_vendor/jquery.ui.touch-punch.js"
+  },
+  {
+   "src": "_vendor/jquery.requestAnimationFrame.js"
+  },
+  {
+   "src": "_vendor/cdm.sketcher.js"
+  },
+  {
+   "src": "_vendor/iscroll.js"
+  },
+  {
+   "src": "_vendor/apprise-1.5.full.js"
+  },
+  {
+   "src": "_vendor/apprise.css"
+  }
+ ],
+ "iPlanner": {
+  "bounce": false,
+  "lockedOrientation": "landscape"
+ },
+ "ag-microsites": {
+  "startPath": "ag-microsites"
+ },
+ "ag-engager": {
+  "width": 1024,
+  "height": 760
+ },
+ "debug": {
+  "dependencies": [
+   {
+    "src": "accelerator/lib/draggy.js"
+   },
+   {
+    "src": "accelerator/lib/jquery.min.js"
+   }
+  ]
+ },
+ "width": "100%",
+ "height": "100%",
+ "margin": 0,
+ "padding": 0
 }
