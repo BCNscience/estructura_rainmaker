@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0">  
+    <title>Blank iPad Presentation</title>
+    <style type="text/css">
+      body {
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+        background: #FFF;
+        font-family: helvetica;
+      }
+      
+      #circlesContainer,.content {
+        position: absolute;
+        overflow: hidden;
+        left: 0px;
+        top: 0px;
+        width: 1024px;
+        height: 768px;
+      }
+
+      @media only screen and (max-device-width: 1024px) and (orientation:portrait) {
+        #circlesContainer,.content {
+          position: absolute;
+          overflow: hidden;
+          left: 0px;
+          top: 0px;
+          width: 768px;
+          height: 1024px;
+        }
+      }
+
+      .circle {
+        position: absolute;
+        opacity: .9;
+      }
+      
+      .title {
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body onload="init()" onorientationchange="createCircles()">
+    <script type="text/javascript" charset="utf-8">
+      var logoColors =
+        [
+          "#D31379",
+          "#37A0DA",
+          "#F59E07",
+          "#FDD801",
+          "#C8CC0B",
+          "#91AE2E",
+          "#0C9239"
+        ];
+      var _circles = null,
+          _circlesContainer = null;
+
+      init = function() {
+        _circlesContainer = document.getElementById("circlesContainer");
+        createCircles();
+      }
+      
+      createCircles = function() {
+        _circles = [];
+        _circlesContainer.innerHTML = "";
+        addNextCircle(0);
+      }
+      
+      function addNextCircle(circleIndex) {
+          (function() {
+            var circle = {};
+            var intersection = true;
+            var iterations = 0;
+            do {
+              var circleX = Math.floor(Math.random() * 480);
+              var circleY = 240 - Math.floor(Math.random() * 480);
+              var circleRadius = 20 + Math.floor(Math.random() * 60);
+              circle =
+                {
+                  x : circleX,
+                  y : circleY,
+                  radius : circleRadius,
+                  color : logoColors[circleIndex % logoColors.length]
+                };
+              intersection = false;
+              for (var i = 0; i < _circles.length; i++) {
+                var item = _circles[i];
+                var d = distance(item, circle);
+                var mr = Math.max(item.radius, circle.radius);
+                intersection = d < mr;
+                if (intersection) {
+                  break;
+                }
+              }
+              iterations++;
+            } while (intersection && iterations < 10);
+            _circles.push(circle);
+            drawCircle(circle);
+            circleIndex++;
+            if (circleIndex < logoColors.length * 3) {
+              addNextCircle(circleIndex);
+            }
+          })();
+      }
+      
+      function distance(circle1, circle2) {
+        var xs = circle2.x - circle1.x;
+        var ys = circle2.y - circle1.y;
+        xs *= xs;
+        ys *= ys;
+        return Math.sqrt(xs + ys);
+      }
+      
+      function drawCircle(circle) {
+        var circleElement = document.createElement("div");
+        circleElement.className = "circle";
+        circleElement.style.left = (_circlesContainer.offsetWidth - circle.x - circle.radius) + "px";
+        circleElement.style.top = (_circlesContainer.offsetHeight / 2 + circle.y - circle.radius) + "px";
+        circleElement.style.width =
+          circleElement.style.height =
+            (circle.radius * 2) + "px";
+        circleElement.style.borderRadius = circle.radius + "px";
+        circleElement.style.backgroundColor = circle.color;
+        _circlesContainer.appendChild(circleElement);
+      }
+    </script>
+    <div id="circlesContainer"></div>
+    <div class="content">
+      <h1 class="title">Blank iPad Presentation</h1>
+    </div>
+  </body>
+</html>
