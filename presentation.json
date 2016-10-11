@@ -2,7 +2,7 @@
     "slides": {
         "portada_slide": {
             "id": "portada_slide",
-            "name": "portada_slide",
+            "name": "Portada",
             "files": {
                 "templates": [
                     "slides/portada_slide/portada_slide.html"
@@ -18,7 +18,7 @@
         },
         "portada_2_slide": {
             "id": "portada_2_slide",
-            "name": "portada_2_slide",
+            "name": "Portada 2",
             "files": {
                 "templates": [
                     "slides/portada_2_slide/portada_2_slide.html"
@@ -34,7 +34,7 @@
         },
         "home_slide": {
             "id": "home_slide",
-            "name": "home_slide",
+            "name": "Home",
             "files": {
                 "templates": [
                     "slides/home_slide/home_slide.html"
@@ -50,7 +50,7 @@
         },
         "test_slide_1": {
             "id": "test_slide_1",
-            "name": "test_slide_1",
+            "name": "Limpiador dental",
             "files": {
                 "templates": [
                     "slides/test_slide_1/test_slide_1.html"
@@ -66,7 +66,7 @@
         },
         "test_slide_2": {
             "id": "test_slide_2",
-            "name": "test_slide_2",
+            "name": "Neutrolor ambiente para gatos",
             "files": {
                 "templates": [
                     "slides/test_slide_2/test_slide_2.html"
@@ -82,7 +82,7 @@
         },
         "test_slide_2b": {
             "id": "test_slide_2b",
-            "name": "test_slide_2b",
+            "name": "Neutrolor ambiente para perros",
             "files": {
                 "templates": [
                     "slides/test_slide_2b/test_slide_2b.html"
@@ -98,7 +98,7 @@
         },
         "test_slide_3": {
             "id": "test_slide_3",
-            "name": "test_slide_3",
+            "name": "Toallitas higiénicas",
             "files": {
                 "templates": [
                     "slides/test_slide_3/test_slide_3.html"
@@ -114,7 +114,7 @@
         },
         "test_slide_4": {
             "id": "test_slide_4",
-            "name": "test_slide_4",
+            "name": "Toallitas higiénicas con cidronela",
             "files": {
                 "templates": [
                     "slides/test_slide_4/test_slide_4.html"
@@ -130,7 +130,7 @@
         },
         "test_slide_5": {
             "id": "test_slide_5",
-            "name": "test_slide_5",
+            "name": "Murnil",
             "files": {
                 "templates": [
                     "slides/test_slide_5/test_slide_5.html"
@@ -146,7 +146,7 @@
         },
         "test_slide_6": {
             "id": "test_slide_6",
-            "name": "test_slide_6",
+            "name": "Shampoo espuma seca",
             "files": {
                 "templates": [
                     "slides/test_slide_6/test_slide_6.html"
@@ -162,7 +162,7 @@
         },
         "test_slide_7": {
             "id": "test_slide_7",
-            "name": "test_slide_7",
+            "name": "Malta",
             "files": {
                 "templates": [
                     "slides/test_slide_7/test_slide_7.html"
@@ -178,7 +178,7 @@
         },
         "test_slide_8": {
             "id": "test_slide_8",
-            "name": "test_slide_8",
+            "name": "Shampoo neutrolor",
             "files": {
                 "templates": [
                     "slides/test_slide_8/test_slide_8.html"
@@ -194,7 +194,7 @@
         },
         "test_slide_9": {
             "id": "test_slide_9",
-            "name": "test_slide_9",
+            "name": "Calcio vitamina D3",
             "files": {
                 "templates": [
                     "slides/test_slide_9/test_slide_9.html"
@@ -210,7 +210,7 @@
         },
         "test_slide_10": {
             "id": "test_slide_10",
-            "name": "test_slide_10",
+            "name": "Vetriderm",
             "files": {
                 "templates": [
                     "slides/test_slide_10/test_slide_10.html"
@@ -403,7 +403,7 @@
         
         "summary_slide": {
             "id": "summary_slide",
-            "name": "summary_slide",
+            "name": "Summary",
             "files": {
                 "templates": [
                     "slides/summary_slide/summary_slide.html"
